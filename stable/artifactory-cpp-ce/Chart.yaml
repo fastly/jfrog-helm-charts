@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 7.98.13
 dependencies:
 - name: artifactory
-  repository: file://artifactory
+  repository: file://../artifactory
   version: 107.98.13
 description: JFrog Artifactory CE for C++
 home: https://www.jfrog.com/artifactory/
