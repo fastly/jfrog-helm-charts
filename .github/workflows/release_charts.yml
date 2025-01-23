@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - 'charts/**' # Adjust this path to match the location of your Helm charts
+      - 'stable/**' 
 
 jobs:
   package-and-push:
@@ -18,7 +18,7 @@ jobs:
     - name: Set up Helm
       uses: azure/setup-helm@v3
       with:
-        version: v4.2.0 # Replace with your preferred Helm version
+        version: v4.2.0
 
     - name: Authenticate with GitHub Container Registry
       env:
