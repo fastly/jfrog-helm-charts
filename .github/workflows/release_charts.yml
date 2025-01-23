@@ -31,7 +31,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         CHARTS=("stable/jfrog-platform")
-        for chart_dir in ${CHARTS[@]}"; do
+        for chart_dir in ${CHARTS[@]}; do
           if [ -d "$chart_dir" ]; then
             # Update dependencies
             helm dependency update "$chart_dir"
