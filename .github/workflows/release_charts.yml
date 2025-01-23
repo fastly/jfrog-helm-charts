@@ -30,7 +30,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        CHARTS = ("stable/jfrog-platform")
+        CHARTS=("stable/jfrog-platform")
         for chart_dir in ${CHARTS[@]}"; do
           if [ -d "$chart_dir" ]; then
             # Update dependencies
