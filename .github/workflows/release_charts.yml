@@ -23,4 +23,3 @@ jobs:
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           charts_dir: "./stable/"
-          skip_existing: true
