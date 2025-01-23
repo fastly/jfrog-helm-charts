@@ -32,6 +32,8 @@ jobs:
       run: |
         for chart_dir in stable/*; do
           if [ -d "$chart_dir" ]; then
+            # Update dependencies
+            helm dependency update "$chart_dir"
             # Package the Helm chart
             helm package "$chart_dir" --destination packaged_charts
             # Push the packaged chart to GitHub Container Registry
