@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'stable/**' 
+    # paths:
+    #   - 'stable/**' 
 
 jobs:
   package-and-push:
