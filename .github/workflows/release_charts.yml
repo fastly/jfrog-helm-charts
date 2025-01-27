@@ -1,11 +1,11 @@
 name: Publish Helm Charts to GHCR
 
-on:
-  push:
-    branches:
-      - master
-    # paths:
-    #   - 'stable/**' 
+on: workflow_dispatch
+#   push:
+#     branches:
+#       - master
+#     paths:
+#       - 'stable/**' 
 
 jobs:
   package-and-push:
