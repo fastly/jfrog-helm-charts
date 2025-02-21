@@ -48,6 +48,5 @@ maintainers:
 name: jfrog-platform
 sources:
 - https://github.com/jfrog/charts
-- https://github.com/fastly/jfrog-helm-charts
 type: application
 version: 11.0.1
