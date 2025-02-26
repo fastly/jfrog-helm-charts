@@ -7,18 +7,18 @@ dependencies:
   version: 11.9.3
 - name: artifactory
   repository: https://charts.jfrog.io/
-  version: 107.104.7
+  version: 107.104.10
 - name: xray
-  repository: file://../xray
-  version: 103.111.13
+  repository: https://charts.jfrog.io/
+  version: 103.111.15
 - name: catalog
   repository: https://charts.jfrog.io/
-  version: 101.11.1
+  version: 101.13.0
 - name: distribution
   repository: https://charts.jfrog.io/
   version: 102.28.2
 - name: worker
   repository: https://charts.jfrog.io/
   version: 101.118.0
-digest: sha256:7968fb0e5374521d652728af951b82213a266dbe77f75273a14ff269c08354c9
-generated: "2025-02-26T14:57:00.905547-05:00"
+digest: sha256:10a007df54100d61e5600bdcf810a8c52cc5c4af895c3a099bc111e34214de02
+generated: "2025-02-26T00:00:52.526636+05:30"
