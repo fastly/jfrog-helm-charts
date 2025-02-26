@@ -15,7 +15,7 @@ dependencies:
   version: 107.104.10
 - condition: xray.enabled
   name: xray
-  repository: "file://../xray/"
+  repository: https://charts.jfrog.io/
   version: 103.107.21
 - condition: catalog.enabled
   name: catalog
@@ -52,4 +52,4 @@ name: jfrog-platform
 sources:
 - https://github.com/jfrog/charts
 type: application
-version: 11.0.5
+version: 11.0.4
