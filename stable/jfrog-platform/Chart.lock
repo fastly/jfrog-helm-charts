@@ -4,12 +4,12 @@ dependencies:
   version: 15.5.20
 - name: rabbitmq
   repository: https://charts.jfrog.io/
-  version: 14.6.6
+  version: 11.9.3
 - name: artifactory
   repository: https://charts.jfrog.io/
   version: 107.104.7
 - name: xray
-  repository: https://charts.jfrog.io/
+  repository: file://../xray
   version: 103.111.13
 - name: catalog
   repository: https://charts.jfrog.io/
@@ -20,5 +20,5 @@ dependencies:
 - name: worker
   repository: https://charts.jfrog.io/
   version: 101.118.0
-digest: sha256:a8ee279bf21c095f82258d58f2dbb8049e2d7fb7e4bbbb0577315fb6733a3bac
-generated: "2025-02-13T22:04:49.77243+05:30"
+digest: sha256:7968fb0e5374521d652728af951b82213a266dbe77f75273a14ff269c08354c9
+generated: "2025-02-26T14:57:00.905547-05:00"

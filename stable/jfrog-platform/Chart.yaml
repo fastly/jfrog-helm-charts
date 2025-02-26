@@ -8,14 +8,15 @@ dependencies:
 - condition: rabbitmq.enabled
   name: rabbitmq
   repository: https://charts.jfrog.io/
-  version: 14.6.6
+  version: 11.9.3
 - condition: artifactory.enabled
   name: artifactory
   repository: https://charts.jfrog.io/
   version: 107.104.7
 - condition: xray.enabled
   name: xray
-  repository: https://charts.jfrog.io/
+  # repository: https://charts.jfrog.io/
+  repository: "file://../xray"
   version: 103.111.13
 - condition: catalog.enabled
   name: catalog
