@@ -53,4 +53,4 @@ name: jfrog-platform
 sources:
 - https://github.com/jfrog/charts
 type: application
-version: 11.0.3
+version: 11.0.4
